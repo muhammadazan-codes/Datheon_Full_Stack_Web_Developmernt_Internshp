@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(22, 160, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+      width: 100%;
+     
+}
+form{
+    color: black;
+    background-color: aliceblue;
+    height: 70%;
+    width: 60%;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     gap: 10px;
+}
+ .h-1{
+    font-weight: bold;
+    margin-top: -20%;
+
+}
+form p{
+    font-size: 10px;
+    color: rgb(75, 68, 68);
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+.div1 input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    background-color:rgb(206, 211, 216);
+    padding-left: 10px;
+}
+.div1 input ::placeholder{
+    text-align: center;
+}
+button{
+    background-color:rgb(22, 160, 198);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    width: 100px;
+}
+button:hover{
+   background-color: rgb(17, 134, 166);
+   cursor: pointer;
+}
+.div-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+.div2{
+        height: 150px;
+        width: 300px;
+        background-color: rgb(206, 211, 216);
+        border: none;
+        border-radius: 12px;
+        margin-bottom: -140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+        padding: 15PX;
+}
+.div2 p{
+    color: rgb(57, 54, 54);
+    font-size: 13px;
+    
+}
+img{
+    margin-top: -20px;
+}
+#temp-msg{
+    font-size: 35px;
+    font-weight: bold;
+}
